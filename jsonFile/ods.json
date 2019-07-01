@@ -1,0 +1,71 @@
+{
+  "status": "OK",
+  "header": {
+    "headerAttributes": {
+      "pageCount": 1,
+      "totalCount": 1
+    }
+  },
+  "payload": [
+    {
+      "buyerInfo": {
+        "isGuest": false,
+        "primaryContact": {
+          "name": {
+            "firstName": "Paula",
+            "lastName": "scaife",
+            "titleOfRespect": "null."
+          },
+          "email": {
+            "emailAddress": "paula_scaife@outlook.com"
+          }
+        }
+      },
+      "statusText": "Order Processing",
+      "status": "CUTOFF_EXECUTED",
+      "orderNo": "19990081629",
+      "orderType": "DOMESTIC",
+      "lastModified": "2019-06-03T08:07:21.177+0000",
+      "affiliateId": "7686668354",
+      "deliveryOption": "clickandcollect",
+      "deliveryReservationDetails": [
+        {
+          "reservationId": "b8879e6d-6b82-4826-ac80-5764a0c5bbae",
+          "bookDate": "2019-06-02T23:00:00.000+0000",
+          "dispenseType": "clickandcollect",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "timezone": "Europe/London",
+          "fulfillmentDate": "2019-06-02T23:00:00.000+0000"
+        }
+      ],
+      "orderedDate": "2019-06-02T23:00:00.000+0000",
+      "orderDate": "2019-06-02T23:00:00.000+0000",
+      "orderSummary": {
+        "totalAmount": {
+          "currencyAmount": 95.7746,
+          "currencyUnit": "GBP"
+        },
+        "orderSubTotals": [
+          {
+            "totalAmount": {
+              "currencyAmount": 95.7746,
+              "currencyUnit": "GBP"
+            },
+            "subTotalType": "PRODUCT",
+            "charges": [
+              {
+                "chargeName": "Item Price",
+                "isDiscount": false,
+                "totalCharge": {
+                  "currencyAmount": 95.7746,
+                  "currencyUnit": "GBP"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
